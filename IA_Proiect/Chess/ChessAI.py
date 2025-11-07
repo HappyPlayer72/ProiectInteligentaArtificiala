@@ -82,7 +82,7 @@ piecePositionScores = {
 
 CHECKMATE = 1000
 STALEMATE = 0
-DEPTH = 4
+DEPTH = 3
 '''
 This is a helper function to make the best move using the minimax algorithm.
 '''
@@ -247,3 +247,4 @@ def scoreBoard(gs):
                 elif square[0] == 'b':
                     score -= piecesScore[square[1]]
     return score
+
